@@ -39,20 +39,20 @@ class Development:
 
     # Fill in these vars if you want to use Traditional method of deploying
     LOGGER = True
-    BOT_TOKEN = "YOUR BOT_TOKEN"
-    API_ID = 12345  # Your APP_ID from Telegram
-    API_HASH = "YOUR API HASH"  # Your APP_HASH from Telegram
-    OWNER_ID = 1344569458  # Your telegram user id
-    MESSAGE_DUMP = -100  # Your Private Group ID for logs
-    DEV_USERS = []
-    SUDO_USERS = []
-    WHITELIST_USERS = []
-    DB_URI = "postgres://username:password@postgresdb:5432/database_name"
-    DB_NAME = "gojo_satarou"
+    BOT_TOKEN = "5189246830:AAEVwFNM_4jtpYSrAw0ntw8oFfXJy0kYNsY"
+    API_ID = 12388301  # Your APP_ID from Telegram
+    API_HASH = "f08f8caff5aac56229e9f02bd67e48ea"  # Your APP_HASH from Telegram
+    OWNER_ID = 1943696216  # Your telegram user id
+    MESSAGE_DUMP = -1001706596784  # Your Private Group ID for logs
+    DEV_USERS = [1943696216]
+    SUDO_USERS = [1943696216]
+    WHITELIST_USERS = [1943696216]
+    DB_URI = "mongodb+srv://vcbot:vcbot@cluster0.dnn8y.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    DB_NAME = "vcbot"
     NO_LOAD = []
     PREFIX_HANDLER = ["!", "/"]
-    SUPPORT_GROUP = "SUPPORT_GROUP"
-    SUPPORT_CHANNEL = "SUPPORT_CHANNEL"
+    SUPPORT_GROUP = "perahinsg"
+    SUPPORT_CHANNEL = "summer_sux"
     VERSION = "VERSION"
     WORKERS = 8
 
