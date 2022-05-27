@@ -22,7 +22,7 @@ class Config:
     SUDO_USERS = [int(i) for i in config("SUDO_USERS", default="1943696216").split(" ")]
     WHITELIST_USERS = [int(i) for i in config("WHITELIST_USERS", default="1943696216").split(" ")]
     DB_URI = config("DB_URI", default="mongodb+srv://vcbot:vcbot@cluster0.dnn8y.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
-    DB_NAME = config("DB_NAME", default="vcbot)
+    DB_NAME = config("DB_NAME", default="vcbot")
     NO_LOAD = config("NO_LOAD", default="").split()
     PREFIX_HANDLER = config("PREFIX_HANDLER", default="/").split()
     SUPPORT_GROUP = config("SUPPORT_GROUP", default="perhainsg")
