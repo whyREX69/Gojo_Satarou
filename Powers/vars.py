@@ -13,11 +13,11 @@ class Config:
     """Config class for variables."""
 
     LOGGER = True
-    BOT_TOKEN = config("BOT_TOKEN", default=5189246830:AAEVwFNM_4jtpYSrAw0ntw8oFfXJy0kYNsY)
+    BOT_TOKEN = config("BOT_TOKEN", default="5189246830:AAEVwFNM_4jtpYSrAw0ntw8oFfXJy0kYNsY")
     API_ID = int(config("API_ID", default=12388301))
-    API_HASH = config("API_HASH", default=f08f8caff5aac56229e9f02bd67e48ea)
+    API_HASH = config("API_HASH", default="f08f8caff5aac56229e9f02bd67e48ea")
     OWNER_ID = int(config("OWNER_ID", default=1943696216))
-    MESSAGE_DUMP = int(config("MESSAGE_DUMP", default=-100))
+    MESSAGE_DUMP = int(config("MESSAGE_DUMP", default=-1001706596784))
     DEV_USERS = [int(i) for i in config("DEV_USERS", default="1943696216").split(" ")]
     SUDO_USERS = [int(i) for i in config("SUDO_USERS", default="1943696216").split(" ")]
     WHITELIST_USERS = [int(i) for i in config("WHITELIST_USERS", default="1943696216").split(" ")]
